@@ -1,11 +1,11 @@
 ﻿<p align="center"><img width=30% src="images/Logo.png"></p>
 
 
-![Issues](https://img.shields.io/github/issues/bhaukaalnews/bhaukaalnews.github.io)
-![Pull Requests](https://img.shields.io/github/issues-pr/bhaukaalnews/bhaukaalnews.github.io?)
-![Forks](https://img.shields.io/github/forks/bhaukaalnews/bhaukaalnews.github.io)
-![Stars](https://img.shields.io/github/stars/bhaukaalnews/bhaukaalnews.github.io)
-![License](https://img.shields.io/github/license/bhaukaalnews/bhaukaalnews.github.io)
+![Issues](https://img.shields.io/github/issues/deepdarshan21/bhaukaalnews)
+![Pull Requests](https://img.shields.io/github/issues-pr/deepdarshan21/bhaukaalnews)
+![Forks](https://img.shields.io/github/forks/deepdarshan21/bhaukaalnews)
+![Stars](https://img.shields.io/github/stars/deepdarshan21/bhaukaalnews)
+![License](https://img.shields.io/github/license/deepdarshan21/bhaukaalnews)
 
 This is an  open source project for creating a website . With certain modifications to the content specific to the chapter using this, the need to build a website from scratch and the pains of fixing bugs and figuring out what part fits where is eliminated. Feel free to use this!. If this project helps you out, please give us a mention. Also, we would love to see your version of the same! Do a give a PR in a different branch that showcases how you used this!
 
