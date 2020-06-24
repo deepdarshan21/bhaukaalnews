@@ -14,7 +14,7 @@ This project is also meant to be a starting for all techies interested to get th
 <br>
 
 
-👉 [Checkout the current version](https://bhaukaalnews.github.io/): 
+👉 [Checkout the current version](https://deepdarshan21.github.io/bhaukaalnews/): 
 
 
 <a href="./CONTRIBUTING.md"><h2 align= "center"><b> Contribution Guidelines</b></h2></a> 
