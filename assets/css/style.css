@@ -18,6 +18,124 @@ h1, h2, h3, h4, h5, h6{font-family:'Oswald',sans-serif}
 h2{line-height:23px}
 img{border:none}
 img:hover{opacity:0.75}
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+
+.container {
+  margin: 20px 40px;
+  color: black;
+}
+
+.heading {
+  font-size: 60px;
+  color: ;
+  font-family: Quantico;
+  text-align: center;
+  font-weight: bolder;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+
+}
+
+.profile {
+  flex-basis: 260px;
+  margin: 50px;
+  align-self: center;
+
+}
+
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+  display: block;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.profile h5 {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #3AC01D ;
+  text-align: center;
+  font-family: Quantico;
+  font-weight: lighter;
+
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .heading span {
+    font-size: 15px;
+  }
+
+  .profiles {
+    margin: 20px 0;
+  }
+
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
 .img-center{display:block; margin-left:auto; margin-right:auto; text-align:center}
 .img-right{display:block; margin-left:auto}
 .img-left{display:block; margin-right:auto}
@@ -66,7 +184,7 @@ img:hover{opacity:0.75}
 .logo img:hover{opacity:1}
 .logo > span{ margin-left:-14px}
 .add_banner{float:right; width:650px; height:90px}
-<!--.add_banner img{width:100%; height:100%}-->
+.add_banner img{width:100%; height:100%}
 #navArea{float:left; display:inline; width:100%; padding:0 30px; background-color:#fff}
 .navbar{border:medium none; border-radius:0}
 .navbar-inverse .navbar-nav > li > a{border-left:1px solid #383838; color:#ddd; font-family:'Oswald',sans-serif; display:inline-block; height:50px; line-height:50px; padding:0 14px; text-shadow:0 1px 1px #000; text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
@@ -277,3 +395,5 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 @media(max-width:480px ){.top_nav{text-align:center}.single_post_content_left{width:100%}.single_post_content_right{width:100%}.fashion{width:100%}.technology{width:100%}.copyright{text-align:center;width:100%}.developer{text-align:center;width:100%}.single_iteam{height:300px}.photo_grid figure{height:200px}.photograph_nav li{width:100%;margin-left:0}.nav > li > a{padding:8px 12px}.nav-tabs > li{width:32.6%}}
 @media(max-width:360px ){.latest_newsarea span{font-size:12px;line-height:2.2em;padding:2px 10px 1px 10px}.single_iteam{height:210px}.slider_article > p{display:none}.error_page > span{width:80px}.nav-tabs > li{width:32.3%}.pagination > li > a,.pagination > li > span{padding:4px 8px}}
 @media(max-width:320px ){.sociallink_nav li a{padding:5px 10px}.sociallink_nav li:nth-child(1) > a{padding:5px 13px}.nav-tabs > li{width:32.1%}}
+
+
