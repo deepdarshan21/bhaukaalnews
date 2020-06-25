@@ -1,11 +1,11 @@
 ﻿<p align="center"><img width=30% src="images/Logo.png"></p>
 
 
-![Issues](https://img.shields.io/github/issues/bhaukaalnews/bhaukaalnews.github.io)
-![Pull Requests](https://img.shields.io/github/issues-pr/bhaukaalnews/bhaukaalnews.github.io?)
-![Forks](https://img.shields.io/github/forks/bhaukaalnews/bhaukaalnews.github.io)
-![Stars](https://img.shields.io/github/stars/bhaukaalnews/bhaukaalnews.github.io)
-![License](https://img.shields.io/github/license/bhaukaalnews/bhaukaalnews.github.io)
+![Issues](https://img.shields.io/github/issues/deepdarshan21/bhaukaalnews)
+![Pull Requests](https://img.shields.io/github/issues-pr/deepdarshan21/bhaukaalnews)
+![Forks](https://img.shields.io/github/forks/deepdarshan21/bhaukaalnews)
+![Stars](https://img.shields.io/github/stars/deepdarshan21/bhaukaalnews)
+![License](https://img.shields.io/github/license/deepdarshan21/bhaukaalnews)
 
 This is an  open source project for creating a website . With certain modifications to the content specific to the chapter using this, the need to build a website from scratch and the pains of fixing bugs and figuring out what part fits where is eliminated. Feel free to use this!. If this project helps you out, please give us a mention. Also, we would love to see your version of the same! Do a give a PR in a different branch that showcases how you used this!
 
@@ -17,11 +17,11 @@ This project is also meant to be a starting for all techies interested to get th
 👉 [Checkout the current version](https://deepdarshan21.github.io/bhaukaalnews/): 
 
 
-<a href="./CONTRIBUTING.md"><h2 align= "center"><b> Contribution Guidelines</b></h2></a> 
+<a href=".md files/CONTRIBUTING.md"><h2 align= "center"><b> Contribution Guidelines</b></h2></a> 
 <p align= "center"><img width=55% src="https://image.freepik.com/free-vector/public-contribution-concept_23-2147848243.jpg"></p>
 <br>
 
-<a href="./Code_of_Conduct.md"><h2 align= "center"><b> Code of Conduct</b></h2></a> 
+<a href=".md files/Code_of_Conduct.md"><h2 align= "center"><b> Code of Conduct</b></h2></a> 
 <p align="center"><img width=35% src="https://websitepolicies.gumlet.com/uploads/q/w/l/r/5h2rq39otn0e2r3508fj.jpg?w=400&dpr=2.6"></p>
 <br>
 
