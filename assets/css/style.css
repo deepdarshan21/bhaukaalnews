@@ -20,10 +20,12 @@ img{border:none}
 img:hover{opacity:0.75}
 @import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
 
+/*
 .container {
   margin: 20px 40px;
   color: black;
 }
+*/
 
 .heading {
   font-size: 60px;
