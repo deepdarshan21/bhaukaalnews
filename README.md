@@ -2,7 +2,7 @@
 
 
 ![Issues](https://img.shields.io/github/issues/deepdarshan21/bhaukaalnews)
-![Issues](https://img.shields.io/github/issues/deepdarshan21/bhaukaalnews)
+![Closed Issues](https://img.shields.io/github/issues-closed/deepdarshan21/bhaukaalnews)
 ![Pull Requests](https://img.shields.io/github/issues-pr/deepdarshan21/bhaukaalnews)
 ![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/deepdarshan21/bhaukaalnews)
 ![Forks](https://img.shields.io/github/forks/deepdarshan21/bhaukaalnews)
