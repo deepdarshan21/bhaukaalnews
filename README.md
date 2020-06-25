@@ -3,6 +3,7 @@
 
 ![Issues](https://img.shields.io/github/issues/deepdarshan21/bhaukaalnews)
 ![Pull Requests](https://img.shields.io/github/issues-pr/deepdarshan21/bhaukaalnews)
+![Closed Pull Requests](/github/closed-prs/deepdarshan21/bhaukaalnews)
 ![Forks](https://img.shields.io/github/forks/deepdarshan21/bhaukaalnews)
 ![Stars](https://img.shields.io/github/stars/deepdarshan21/bhaukaalnews)
 ![License](https://img.shields.io/github/license/deepdarshan21/bhaukaalnews)
