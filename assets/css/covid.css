@@ -8,6 +8,12 @@
     height: 100vh;
     color: black;
   }
+.com{
+    font-size: 25px;
+    font-family: calibra;
+    text-align: center;
+    font-weight: bolder;
+  }
  #logo{
  	float: left;
  	width:  150px;
@@ -150,6 +156,9 @@ tr:hover{
  	font-family: Quantico;
  }
  @media(max-width: 992px){
+	 .com{
+    font-size: 20px;
+  }
  	#end{
  		font-size: 20px;
  	}
@@ -186,6 +195,9 @@ tr:hover{
 
  }
   @media(max-width: 768px){
+	  .com{
+      font-size: 14px;
+    }
  	.heading {
  		font-size: 15px;
  	}
@@ -219,5 +231,10 @@ tr:hover{
  	#end{
  		font-size: 20px;
  	}
+	  @media(max-width: 550px){
+  .com{
+    font-size: 9px;
+  }
+ }
  	
  }
