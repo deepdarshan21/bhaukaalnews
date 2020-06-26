@@ -8,18 +8,18 @@ We want to make contributing to this project as easy and transparent as possible
 * Proposing new features
 
 ## How to contribute ☘️:
-*  Fork [this](https://github.com/smaranjitghose/bhaukaalnews.github.io.git) repository.
+*  Fork [this](https://github.com/deepdarshan21/bhaukaalnews.git) repository.
 *  Clone the forked repository.
     ```
-    git clone https://github.com/<your_user_name>/bhaukaalnews.github.io.git
+    git clone https://github.com/<your_user_name>/bhaukaalnews.git
     ```
 * Navigate to the project directory.
     ```
-    cd bhaukaalnews.github.io
+    cd bhaukaalnews
     ```
 * Add a reference to the original repository.
     ```
-    git remote add upstream https://github.com/bhaukaalnews/bhaukaalnews.github.io.git
+    git remote add upstream https://github.com/deepdarshan21/bhaukaalnews.git
     ```
 * See changes using
     ```
