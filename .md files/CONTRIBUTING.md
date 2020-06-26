@@ -49,6 +49,14 @@ We want to make contributing to this project as easy and transparent as possible
 
 ### Incase you face any problems feel free to ask it on [instagram page](https://www.instagram.com/bhaukaalnews)
 
+##### for syncing your repo .
+
+<a href=".md files/sync.md"><h2 align= "center"><b> SYNC </b></h2></a> 
+<p align= "center"><img width=50% src="../images/sync2.png"></p>
+<br>
+
+***
+
 
 
 Feel free to ask your queries!! 🙌
