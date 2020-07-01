@@ -25,7 +25,60 @@ img:hover{opacity:0.75}
   margin: 20px 40px;
   color: black;
 }
-*/        
+*/  
+.dark-button{
+  float: right; 
+  margin-right: 30px; 
+  display: inline-block;
+  font-size: 20px; 
+
+}
+
+.switch input{
+  display: none;
+}      
+.switch{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin: 8px;
+  transform: translateY(50%);
+  position: relative;
+}
+.slider{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 30px;
+  box-shadow: 0 0 0 2px #777, 0 0 0 4px #777;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  overflow: hidden;
+  transition: .4s;
+}
+.slider:before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #777;
+  border-radius: 30px;
+  transform: translateX(-30px);
+  transition: .4s;
+}
+
+input:checked +.slider:before{
+  transform: translateX(30px);
+  background-color: limegreen;
+
+}
+input:checked +.slider{
+  box-shadow: 0 0 0 2px limegreen,0 0 8px limegreen;
+}
+
 .heading {
   font-size: 60px;
   color: ;
@@ -315,7 +368,7 @@ figure.effect-layla:hover figcaption::after, figure.effect-layla:hover h2, figur
 .single_sidebar ul li a{border-bottom:1px solid #333; display:block}
 .single_sidebar .spost_nav li a{border-bottom:none; float:left}
 #footer{display:inline; float:left; width:100%; margin-bottom:20px}
-.footer_top{background-color:#252525; color:#ddd; display:inline; float:left; padding:10px 30px 48px; width:100%}
+.footer_top{background-color:#252525; color:#ddd; display:inline; float:left; padding:10px 30px 48px; width:100%;isolation: isolate}
 .footer_widget{display:inline; float:left; width:100%; min-height:310px}
 .footer_widget > h2{border-bottom:3px solid #666; font-family:Oswald,arial,Georgia,serif; font-size:16px; padding:10px 0; text-transform:uppercase}
 .tag_nav{}
