@@ -108,7 +108,11 @@
 				{
     				b+=a[len-i]+"";
 				}
-				return b;
+				if (b==""){
+				return 0;}
+				else{
+					return b;
+				}
 			}
 			total_cases.html(indian_number(response.statewise[0].confirmed));
 			total_deaths.html(indian_number(response.statewise[0].deaths));
