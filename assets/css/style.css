@@ -26,13 +26,18 @@ img:hover{opacity:0.75}
   color: black;
 }
 */  
+
 .dark-button{
   float: right; 
   margin-right: 30px; 
   display: inline-block;
   font-size: 20px; 
-
+  color: black;
 }
+.darkmode--activated .dark-button{
+  color: limegreen;
+}
+
 
 .switch input{
   display: none;
@@ -75,6 +80,7 @@ input:checked +.slider:before{
   background-color: limegreen;
 
 }
+
 input:checked +.slider{
   box-shadow: 0 0 0 2px limegreen,0 0 8px limegreen;
 }
@@ -234,8 +240,8 @@ hr {
 .top_nav li a#active{background-color: #d083cf;}
 .header_top_right{float:left; display:inline; width:50%; text-align:right}
 .header_top_right > p{color:#fff; display:inline-block; float:right; font:bold 12px sans-serif; margin-bottom:0; padding-bottom:20px; padding-right:8px; padding-top:20px}
-.header_bottom{background-color:#fff; display:inline; float:left; padding:15px 30px 15px; width:100%}
-.logo_area{display:inline; float:left; width:31%}
+.header_bottom{ display:inline; float:left; padding:15px 30px 15px;width: 100%}
+.logo_area{display:inline; float:left; width:31%;}
 .logo{font-size:45px; font-weight:bold; color:#000; font-family:'Varela',sans-serif}
 .logo img{max-width:100%}
 .logo img:hover{opacity:1}
