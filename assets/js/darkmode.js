@@ -11,10 +11,12 @@ const options={
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
 };
+
 function changemode(){
 const darkmode =  new Darkmode();
 darkmode.toggle();
 }
+
 /*
 if (darkmode.isActivated()="true"){
 element.style.color="limegreen";
