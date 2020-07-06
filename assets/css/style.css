@@ -233,7 +233,7 @@ hr {
 .scrollToTop{background-color: #e1ad01;bottom:105px;border-radius: 50px; display:none; font-size:32px; font-weight:bold; height:50px; position:fixed; right:75px; text-align:center; text-decoration:none; width:50px; z-index:9; border:1px solid; -webkit-transition:all 0.5s; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .scrollToTop:hover, .scrollToTop:focus{color: #ffd800;text-decoration:none; outline:none}
 #header{display:inline; float:left; width:100%; margin-top:20px}
-.header_top{background-color:#2c2c2c; display:inline; float:left; padding:0 30px; width:100%}
+.header_top{background-color:#2c2c2c; display:inline; float:left; padding:0 30px; width:100%;position: sticky;position: -webkit-sticky;top:0;z-index: 500;}
 .header_top_left{float:left; display:inline; width:50%}
 .top_nav{text-align:left}
 .top_nav li{display:inline-block}
