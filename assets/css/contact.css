@@ -15,7 +15,7 @@ html, body {
 
 .contact-form:hover {
   text-align: left;
-  box-shadow: 0 5px 10px #fc92e7;
+  box-shadow: 0 5px 10px #ffd800;
   transition: 0.6s;
 }
 
@@ -35,7 +35,7 @@ html, body {
   padding: 6px 0 0 13px;
   transition: all 200ms;
   opacity: 0.7;
-  color: #fc92e7;
+  color: #e1ad01;
 }
 
 .form-control:not(:placeholder-shown) + .form-control-placeholder {
@@ -53,17 +53,17 @@ html, body {
 
 .no-border:focus{
   border: none;
-  border-bottom: 2.5px solid #fc92e7;
+  border-bottom: 2.5px solid #ffd800;
   box-shadow: none;
   background-color: #f3f3f3;
 }
 
 #submit-button {
-  background-color: #fc92e7;
+  background-color: #ffd800;
   padding: 10px 23px;
   border-radius: 4rem;
   text-transform: uppercase;
-  border: 2px solid #fc92e7;
+  border: 2px solid #ffd800;
   outline: none;
   font-size: 1rem;
   color: white;
@@ -71,8 +71,8 @@ html, body {
 
 #submit-button:hover {
   background-color: white;
-  color: #fc92e7;
-  border: 2px solid #fc92e7;
+  color: #ffd800;
+  border: 2px solid #ffd800;
 }
 
 @media only screen and (max-width: 1059px) {
@@ -86,14 +86,14 @@ html, body {
   .main-section {
     margin-top: 35%;
 }
-
+  
 } 
 /* COMPACT CAPTCHA */
 
 .capbox {
-	background-color: #fc92e7;
-	background-image: linear-gradient(#fc92e7, #fc92e7);
-	border: #fc92e7 0px solid;
+	background-color: #ffd800;
+	background-image: linear-gradient(#ffd800, #ffd800);
+	border: #ffd800 0px solid;
          border-radius: 4px 4px 4px 4px;
 	border-width: 2px 2px 2px 20px;
 	box-sizing: border-box;
