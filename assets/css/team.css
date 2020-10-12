@@ -35,6 +35,11 @@ html, body {
 }
 
 #teamPara{
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 25px;
+    align-self: center;
+>>>>>>> de03b4be33f6f3dae9d6858542ca2a948f54cfbe
 }
 

@@ -22,16 +22,12 @@
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body onload="startTime()">
+<body  onload="startTime()">
 <div id="preloader">
   <div id="status">&nbsp;</div>
 </div>
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-<div class="container">
-  <header id="header">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="header_top">
+<div class="header_top">
           <div class="header_top_left">
             <ul class="top_nav">
               <li><a href="index.html" id="active">Home</a></li>
@@ -45,12 +41,24 @@
             <p id="demo"></p>
           </div>
         </div>
+<div class="container-fluid">
+  <header id="header">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="header_bottom">
-          <div class="logo_area"><a href="index.html" class="logo"><!--<h1 style="color: blueviolet;font-size: 50px;">&nbsp&nbspभौकाल <spam style="color: red;">&nbspNews</spam></h1>-->&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/logo1.png" alt="भौकाल News" title="भौकाल NEWS" height="100" width="250"></a></div>    <!--Add imaged logo-->
-          <div class="add_banner"><a href="#"><img src="images/addbanner_image1.jpg" alt="OnePlus Ad" title="Google Ads" ></a></div>
+          <div class="logo_area "><a href="index.html" class="logo"><!--<h1 style="color: blueviolet;font-size: 50px;">&nbsp&nbspभौकाल <spam style="color: red;">&nbspNews</spam></h1>-->&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/bhaukaal-news-rem-bg.png" alt="भौकाल News" title="भौकाल NEWS" height="100" width="250"></a></div>    <!--Add imaged logo-->
+          <div class="dark-button">
+          <label onclick="changemode()" class="switch">
+            <input type="checkbox" id="checkbtn">
+            <span class="slider"></span>
+          </label>
+          <b class="text">Dark Mode</b>
         </div>
+        </div>
+        
       </div>
     </div>
   </header>
@@ -205,7 +213,7 @@
       </div>
     </div>
   </section>
-  <section id="contentSection">
+  <section id="contentSection ">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8">
         <div class="left_content">
@@ -538,6 +546,8 @@
     </div>
   </footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+<script src="assets/js/darkmode.js"></script>
 <script src="assets/js/jquery.min.js"></script> 
 <script src="assets/js/wow.min.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script> 
@@ -548,5 +558,6 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/time.js"></script>
 <script src="assets/js/date.js"></script>
+
 </body>
 </html>
