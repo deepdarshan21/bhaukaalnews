@@ -120,11 +120,7 @@
 			active_cases.html(indian_number(response.statewise[0].active));
 		for (var i=1;i<=length;i++)
 		{
-<<<<<<< HEAD
-			$("table").append("<tr><td>"+response.statewise[i].lastupdatedtime+"</td><td>"+response.statewise[i].state+"</td><td>"+response.statewise[i].confirmed+"</td><td>"+response.statewise[i].active+"</td><td>"+response.statewise[i].recovered+"</td><td>"+response.statewise[i].deaths+"</td></tr>");
-=======
 			$("table").append("<tr><td>"+response.statewise[i].lastupdatedtime+"</td><td>"+response.statewise[i].state+"</td><td>"+indian_number(response.statewise[i].confirmed)+"</td><td>"+indian_number(response.statewise[i].active)+"</td><td>"+indian_number(response.statewise[i].recovered)+"</td><td>"+indian_number(response.statewise[i].deaths)+"</td></tr>");
->>>>>>> de03b4be33f6f3dae9d6858542ca2a948f54cfbe
 		}
 		});
 	});
